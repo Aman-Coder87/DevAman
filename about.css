@@ -186,6 +186,12 @@ label #cancel {
 
 .right-main h2 {
   color: #000;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.right-main h2[data-scroll="in"] {
+  opacity: 1;
 }
 
 #main-container h2:nth-child(1) {
@@ -193,7 +199,13 @@ label #cancel {
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: #fff;
   -webkit-text-fill-color: transparent;
+  opacity: 0;
+  transition: 1s ease-in;
 
+}
+
+#main-container h2[data-scroll="in"] {
+  opacity: 1;
 }
 
 #main-container h2 {
@@ -205,6 +217,12 @@ label #cancel {
   white-space: nowrap;
   animation: animate 60s linear infinite;
   font-family: 'Kanit', sans-serif;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+#main-container h2[data-scroll="in"] {
+  opacity: 1;
 }
 
 @keyframes  animate {
@@ -248,6 +266,12 @@ label #cancel {
 .main-head h5 {
   color: #a3a5a6dc;
   margin: 10px 25px;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.main-head h5[data-scroll="in"] {
+  opacity: 1;
 }
 
 .main-head .header-light {
@@ -269,6 +293,12 @@ label #cancel {
 
 .case h5 {
   color: #a3a5a6dc;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.case h5[data-scroll="in"] {
+  opacity: 1;
 }
 
 .case .large {
@@ -284,11 +314,23 @@ label #cancel {
 
 .div-1 h4 {
   color: #a3a5a6dc;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.div-1 h4[data-scroll="in"] {
+  opacity: 1;
 }
 
 .div-1 h3 {
   color: #a3a5a6dc;
   margin-top: 60px;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.div-1 h3[data-scroll="in"] {
+  opacity: 1;
 }
 
 
@@ -305,11 +347,26 @@ label #cancel {
 
 .services h3 , h5 {
   color: #a3a5a6dc;
+  opacity: 0;
+  transition: 1s ease-in ;
+}
+
+.services h3, h5[data-scroll="in"] {
+  opacity: 1;
 }
 
 .contact {
   height: 20vh;
   margin: auto 25px;
+}
+
+.contact h1, h5 {
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.contact h1, h5[data-scroll="in"] {
+  opacity: 1;
 }
 
 .contact h1 {

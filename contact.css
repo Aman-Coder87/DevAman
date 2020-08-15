@@ -245,6 +245,12 @@ label #cancel {
 .div-1 h5 {
   color: #a3a5a6dc;
   margin-bottom: 20px;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.div-1 h5[data-scroll="in"] {
+  opacity: 1;
 }
 
 /* ------------------------------- */
@@ -346,11 +352,32 @@ label #cancel {
 #getintouch h3 {
   font-size: 1.5rem;
   margin: 10px 0 25px 0;
+  opacity: 0;
+  transition: 1s ease-in ;
+}
+
+#getintouch h3[data-scroll="in"] {
+  opacity: 1;
 }
 
 #getintouch p {
   margin: 10px 0;
   color: #a3a5a6dc;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+#getintouch p[data-scroll="in"] {
+  opacity: 1;
+}
+
+#getintouch ul {
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+#getintouch ul[data-scroll="in"] {
+  opacity: 1;
 }
 
 #getintouch i {
@@ -396,6 +423,15 @@ label #cancel {
     flex-direction: column;
   }
 
+}
+
+.main-field div {
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.main-field div[data-scroll="in"] {
+  opacity: 1;
 }
 
 .contact-button {
