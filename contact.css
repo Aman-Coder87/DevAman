@@ -243,7 +243,7 @@ label #cancel {
 }
 
 .div-1 h5 {
-  color: #a3a5a6dc;
+  color:#ccc;
   margin-bottom: 20px;
   opacity: 0;
   transition: 1s ease-in;
@@ -266,7 +266,7 @@ label #cancel {
 }
 
 .main-field .field label {
-  color: #a3a5a6dc;
+  color:#ccc;
   margin-bottom: 30px;
   margin-left: -5px;
 }
@@ -277,7 +277,7 @@ label #cancel {
 }
 
 .main-field .field span {
-  border: .5px solid #a3a5a6dc;
+  border: .5px solid#ccc;
   width: 90%;
   margin-bottom: 50px;
 }
@@ -362,7 +362,7 @@ label #cancel {
 
 #getintouch p {
   margin: 10px 0;
-  color: #a3a5a6dc;
+  color:#ccc;
   opacity: 0;
   transition: 1s ease-in;
 }

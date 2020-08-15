@@ -345,7 +345,7 @@ label #cancel {
 }
 
 .main-head h5 {
-	color: #a3a5a6dc;
+	color: #ccc;
 	margin: 10px 25px;
 	opacity: 0;
 	transition: 0.5s ease-in;
@@ -357,7 +357,7 @@ label #cancel {
 }
 
 .main-head .header-light {
-	color: #a3a5a6dc;
+	color:#ccc;
 	margin: 50px 5px 5px 10px;
 }
 
@@ -383,7 +383,7 @@ label #cancel {
 }
 
 .case h5 {
-	color: #a3a5a6dc;
+	color:#ccc;
 }
 
 .case .large {
@@ -452,7 +452,7 @@ label #cancel {
 }
 
 #wrapper h2 {
-	color: #a3a5a6dc;
+	color:#ccc;
 	opacity: 0;
 	transition: 1s ease-in;
 }
@@ -494,7 +494,7 @@ label #cancel {
 
 #getintouch p {
 	margin: 10px 0;
-	color: #a3a5a6dc;
+	color:#ccc;
 	opacity: 0 ;
 	transition: 1s ease-in ;
 }
@@ -506,7 +506,7 @@ label #cancel {
 
 #getintouch ul {
 	margin: 10px 0;
-	color: #a3a5a6dc;
+	color:#ccc;
 	opacity: 0 ;
 	transition: 1s ease-in ;
 }
